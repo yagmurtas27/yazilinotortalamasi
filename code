@@ -1,19 +1,21 @@
-//Uygulamada kullanılan kodlar aşağıdaki gibidir.
+#include <iostream>
 
-int main(int argc, char** argv) {
-	setlocale(LC_ALL,"Turkish"); 
-	float Not1,Not2,average;
-	cout << "1. notu giriniz: ";
+using namespace std;
+
+int main()
+{
+  	setlocale(LC_ALL,"Turkish"); 
+	float Not1,Not2,Average;
+	cout << "1. yazılı notunu giriniz: ";
 	cin>>Not1;
-	cout << "2. notu giriniz: ";
+	cout << "2. yazılı notunu giriniz: ";
 	cin>>Not2;
-	average=(Not1+Not2)/2;
-	cout<<"Ortalamanız : "<<average<<endl;
-	if(average>=50){
+	Average=(Not1+Not2)/2;
+	cout<<"Ortalamanız : "<<Average<<endl;
+	if(Average>=50){
 		cout<<"Dersten geçtiniz.";
 	}
 	else{
 		cout<<"Dersten kaldınız";
 	}
-	return 0;
-} 
+}
