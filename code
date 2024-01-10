@@ -3,9 +3,9 @@
 int main(int argc, char** argv) {
 	setlocale(LC_ALL,"Turkish"); 
 	float Not1,Not2,average;
-	cout << "1. Yazılıdan aldığınız notu giriniz: ";
+	cout << "1. notu giriniz: ";
 	cin>>Not1;
-	cout << "2. Yazılıdan aldığınız notu giriniz: ";
+	cout << "2. notu giriniz: ";
 	cin>>Not2;
 	average=(Not1+Not2)/2;
 	cout<<"Ortalamanız : "<<average<<endl;
